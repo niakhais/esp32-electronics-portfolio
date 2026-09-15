@@ -5,7 +5,7 @@
 An ESP32-based IR remote that can learn a code from any real remote, replay it on demand, and — as a long-press option — blast an entire brand-code database (ported from the TV-B-Gone project) to try to power off an unknown TV.
 
 ## Demo
-
+https://github.com/niakhais/esp32-electronics-portfolio/blob/main/tvremote/media/video%20of%20ir%20remote.mov
 The sequence below is from an actual run, in order — boot, learning a real remote's code, checking what's stored, replaying it, and triggering a full database blast.
 
 | | |
