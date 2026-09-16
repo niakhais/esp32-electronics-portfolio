@@ -59,7 +59,7 @@ All buttons: one leg to GPIO, other leg to GND, `INPUT_PULLUP` in firmware — n
 
 - [`tvremote.ino`](./tvremote.ino) — main firmware
 - [`main.h`](./main.h) — small ESP32-compatible stub required by the TV-B-Gone code table (defines `freq_to_timerval()`, `NUM_ELEM()`, and the `IrCode` struct — the original AVR version of this file uses hardware timer registers that don't exist on ESP32)
-- **`WORLD_IR_CODES.h`** — **not included in this repo.** Download it directly from [shirriff/Arduino-TV-B-Gone](https://github.com/shirriff/Arduino-TV-B-Gone/blob/master/WORLD_IR_CODES.h) (Raw → Save As) into this folder before compiling. It's a large third-party code table; pulling it from the original source avoids any risk of a corrupted transcription.
+- **`WORLD_IR_CODES.h`** — **included in this repo.** could be downloaded directly from [shirriff/Arduino-TV-B-Gone](https://github.com/shirriff/Arduino-TV-B-Gone/blob/master/WORLD_IR_CODES.h) (Raw → Save As) into this folder before compiling. It's a large third-party code table; pulling it from the original source avoids any risk of a corrupted transcription.
 
 ## What actually went wrong, and how it got fixed
 
