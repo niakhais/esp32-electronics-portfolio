@@ -25,7 +25,7 @@ Rebuilt directly on the wiring from the [ultrasonic radar project](../ultrasonic
 |---|---|
 | ESP32 dev board | |
 | HC-SR04 ultrasonic sensor | |
-| SG90 servo | Mounted via a 3D-printed horn bracket (see the radar project's README for the print credit — same mount reused here) |
+| SG90 servo | Mounted via a 3D-printed horn bracket (https://makerworld.com/en/models/1430708-micro-servo-sg90-9g-flatmount-bracket-v2?from=search#profileId-1487613) |
 | 2 resistors (1kΩ + 2kΩ) | Voltage divider for the Echo line |
 
 ### Wiring
