@@ -16,7 +16,6 @@ Rebuilt directly on the wiring from the [ultrasonic radar project](../ultrasonic
 
 *Mounted at a bin-edge position, hanging off the desk to simulate the real mount*
 
-> **Video demo:** uploaded separately via GitHub's Issues tab (New issue → drag the video into the comment box → copy the generated `user-attachments` link → paste it here on its own line).
 
 ## What it does
 
@@ -30,8 +29,8 @@ Rebuilt directly on the wiring from the [ultrasonic radar project](../ultrasonic
 | Component | Notes |
 |---|---|
 | ESP32 dev board | |
-| HC-SR04 ultrasonic sensor | |
-| SG90 servo | Mounted via a 3D-printed horn bracket (see the radar project's README for the print credit — same mount reused here) |
+| HC-SR04 ultrasonic sensor | 3D enclosure print: https://makerworld.com/en/models/2291079-hc-sr04-case-snap-fit?from=search#profileId-2499870
+| SG90 servo | Mounted via a 3D-printed horn bracket (https://makerworld.com/en/models/1430708-micro-servo-sg90-9g-flatmount-bracket-v2?from=search#profileId-1487613) |
 | 2 resistors (1kΩ + 2kΩ) | Voltage divider for the Echo line |
 
 ### Wiring
