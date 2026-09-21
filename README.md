@@ -8,6 +8,7 @@ A collection of ESP32-based embedded systems projects, documented honestly — i
 |---|---|---|
 | [Universal IR Remote](./universal-ir-remote/) | ✅ Complete, working | Protocol decoding, flash persistence, ported third-party code integration, edge-triggered debounce debugging |
 | [Ultrasonic Radar with Live Web Map](./ultrasonic-radar/) | ✅ Complete, working | Sensor + servo control, embedded WiFi web server, real-time browser visualization with no external dependencies |
+| [Automatic Bin Opener](./automatic-bin-opener/) | ✅ Complete, working | Non-blocking state machines, timeout-vs-signal distinction in sensor logic, safety-conscious slow-motion design |
 
 More projects added as they're physically rebuilt and verified.
 
@@ -18,3 +19,4 @@ A few things were learned once and then deliberately reused, rather than re-disc
 - **Verify wiring with a scanner or multimeter before trusting a diagram** — an I2C scanner sketch is faster than any amount of visual inspection.
 - **Test the riskiest assumption cheaply before building the mechanism around it.**
 - **Check the constraints of the deployment environment, not just the code** — an ESP32 in access-point mode has no internet route, so any CDN-hosted library fails silently.
+- **A sensor timeout is not the same thing as "no object detected"** — treating a missed reading as a confirmed negative can silently break trigger logic, even when the sensor itself is working fine.
