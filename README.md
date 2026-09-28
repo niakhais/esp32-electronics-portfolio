@@ -9,6 +9,7 @@ A collection of ESP32-based embedded systems projects, documented honestly — i
 | [Universal IR Remote](./universal-ir-remote/) | ✅ Complete, working | Protocol decoding, flash persistence, ported third-party code integration, edge-triggered debounce debugging |
 | [Ultrasonic Radar with Live Web Map](./ultrasonic-radar/) | ✅ Complete, working | Sensor + servo control, embedded WiFi web server, real-time browser visualization with no external dependencies |
 | [Automatic Bin Opener](./automatic-bin-opener/) | ✅ Complete, working | Non-blocking state machines, timeout-vs-signal distinction in sensor logic, safety-conscious slow-motion design |
+| [3D Gyro Visualizer](./gyro-3d-visualizer/) | ✅ Complete, working | I2C IMU reading, complementary-filter sensor fusion, live 3D visualization served from the ESP32 with no external libraries |
 
 More projects added as they're physically rebuilt and verified.
 
