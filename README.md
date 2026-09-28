@@ -21,3 +21,4 @@ A few things were learned once and then deliberately reused, rather than re-disc
 - **Test the riskiest assumption cheaply before building the mechanism around it.**
 - **Check the constraints of the deployment environment, not just the code** — an ESP32 in access-point mode has no internet route, so any CDN-hosted library fails silently.
 - **A sensor timeout is not the same thing as "no object detected"** — treating a missed reading as a confirmed negative can silently break trigger logic, even when the sensor itself is working fine.
+- **Axis sign corrections belong to a physical mount** — a Z-axis negation that was right for an upside-down IMU gave a 179° roll reading once the board lay flat. Re-verify signs whenever the mount changes.
