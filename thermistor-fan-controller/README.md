@@ -102,3 +102,10 @@ touching the math. The code fix (explicit fault detection) is what
 should have existed from the start; it would have surfaced the real
 cause immediately instead of producing a confusing -46.5°C reading
 that looked like a bad formula.
+
+## Schematic
+
+![Schematic](./media/schematic.png)
+
+KiCad source: [`schematic/`](./schematic). The ESP32 is drawn as a generic connector listing only the pins this project uses.
+

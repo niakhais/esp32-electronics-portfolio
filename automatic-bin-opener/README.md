@@ -43,6 +43,12 @@ Rebuilt directly on the wiring from the [ultrasonic radar project](../ultrasonic
 
 Power from VIN, all grounds commoned. No LED, no joystick, no mode button in this version — deliberately stripped down to just what the bin actually needs.
 
+## Schematic
+
+![Schematic](./media/schematic.png)
+
+KiCad source: [`schematic/`](./schematic). The ESP32 is drawn as a generic connector listing only the pins this project uses.
+
 ## Files
 
 - [`bin_opener.ino`](./bin_opener.ino) — full firmware

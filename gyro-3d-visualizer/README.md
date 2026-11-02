@@ -42,6 +42,12 @@ The ESP32's I2C peripheral can be routed to almost any GPIO with `Wire.begin(sda
 ### Build photo
 ![Wiring](./media/build-wiring.jpg)
 
+## Schematic
+
+![Schematic](./media/schematic.png)
+
+KiCad source: [`schematic/`](./schematic). The ESP32 is drawn as a generic connector listing only the pins this project uses.
+
 ## Files
 
 - [`gyro_3d.ino`](./gyro_3d.ino): full firmware, including the embedded web page

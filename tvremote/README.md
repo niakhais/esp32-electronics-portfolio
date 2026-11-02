@@ -55,6 +55,12 @@ All buttons: one leg to GPIO, other leg to GND, `INPUT_PULLUP` in firmware — n
 - `Adafruit_SSD1306` + `Adafruit_GFX` — OLED driver
 - `Preferences` — built into the ESP32 core, used for flash-persistent code storage
 
+## Schematic
+
+![Schematic](./media/schematic.png)
+
+KiCad source: [`schematic/`](./schematic). The ESP32 is drawn as a generic connector listing only the pins this project uses.
+
 ## Files
 
 - [`tvremote.ino`](./tvremote.ino) — main firmware

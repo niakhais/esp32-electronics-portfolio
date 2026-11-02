@@ -53,6 +53,12 @@ Neither model is included in this repository — both are under a Standard Digit
 - **[HC-SR04 Case | Snap-Fit](https://makerworld.com/en/models/2291079-hc-sr04-case-snap-fit)** by [i-BoxIt](https://makerworld.com/en/@i.boxit) — the *RC Servo Mount* variant is the one used here, which mounts the sensor directly to the SG90's horn. Printed in PLA, snap-fit, no supports needed.
 - **[Joystick Module Case](https://makerworld.com/en/models/2294262-joystick-module-case)** by [Tavo](https://makerworld.com/en/@Tavo) — protective case for the KY-023 joystick module. Uses 4× M3 screws.
 
+## Schematic
+
+![Schematic](./media/schematic.png)
+
+KiCad source: [`schematic/`](./schematic). The ESP32 is drawn as a generic connector listing only the pins this project uses.
+
 ## Files
 
 - [`radar_web.ino`](./radar_web.ino) — full firmware: sweep/manual logic, mode button handling, and the embedded web server with its HTML/JS page
